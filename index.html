@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="text-center">Pratica con il Grid System</h1>
+    <!-- Esercizio 1 -->
+    <h2 class="text-center mt-3">Esercizio 1</h2>
+    <div class="container">
+      <div class="row">
+        <div class="bg-primary text-white p-3 border border-black col-md-3">Colonna 1</div>
+        <div class="bg-primary text-white p-3 border border-black col-md-5">Colonna 2</div>
+        <div class="bg-primary text-white p-3 border border-black col-md-4">Colonna 3</div>
+      </div>
+    </div>
+    <!-- Esercizio 2 -->
+    <h2 class="text-center mt-3">Esercizio 2</h2>
+    <div class="container">
+      <div class="row">
+        <div class="bg-warning text-black p-3 border border-black col-md-4">Colonna 1</div>
+        <div class="bg-warning text-black p-3 border border-black col-md-4">Colonna 2</div>
+        <div class="bg-warning text-black p-3 border border-black col-md-4">Colonna 3</div>
+      </div>
+    </div>
+    <!-- Esercizio 3 -->
+    <h2 class="text-center mt-3">Esercizio 3</h2>
+    <div class="container">
+      <h3 class="text-center">Breakpoint xs &lt;576px</h3>
+      <div class="row">
+        <div class="bg-success text-white p-3 border border-black col-4">Colonna 1</div>
+        <div class="bg-success text-white p-3 border border-black col-4">Colonna 2</div>
+        <div class="bg-success text-white p-3 border border-black col-4">Colonna 3</div>
+      </div>
+    </div>
+    <div class="container">
+      <h3 class="text-center">Breakpoint sm &ge;576px</h3>
+      <div class="row">
+        <div class="bg-success text-white p-3 border border-black col-sm-4">Colonna 1</div>
+        <div class="bg-success text-white p-3 border border-black col-sm-4">Colonna 2</div>
+        <div class="bg-success text-white p-3 border border-black col-sm-4">Colonna 3</div>
+      </div>
+    </div>
+    <div class="container">
+      <h3 class="text-center">Breakpoint md &ge;768px</h3>
+      <div class="row">
+        <div class="bg-success text-white p-3 border border-black col-md-4">Colonna 1</div>
+        <div class="bg-success text-white p-3 border border-black col-md-4">Colonna 2</div>
+        <div class="bg-success text-white p-3 border border-black col-md-4">Colonna 3</div>
+      </div>
+    </div>
+    <div class="container">
+      <h3 class="text-center">Breakpoint lg &ge;992px</h3>
+      <div class="row">
+        <div class="bg-success text-white p-3 border border-black col-lg-4">Colonna 1</div>
+        <div class="bg-success text-white p-3 border border-black col-lg-4">Colonna 2</div>
+        <div class="bg-success text-white p-3 border border-black col-lg-4">Colonna 3</div>
+      </div>
+    </div>
+    <div class="container">
+      <h3 class="text-center">Breakpoint xl &ge;1200px</h3>
+      <div class="row">
+        <div class="bg-success text-white p-3 border border-black col-xl-4">Colonna 1</div>
+        <div class="bg-success text-white p-3 border border-black col-xl-4">Colonna 2</div>
+        <div class="bg-success text-white p-3 border border-black col-xl-4">Colonna 3</div>
+      </div>
+    </div>
+    <div class="container">
+      <h3 class="text-center">Breakpoint xxl &ge;1400px</h3>
+      <div class="row">
+        <div class="bg-success text-white p-3 border border-black col-xxl-4">Colonna 1</div>
+        <div class="bg-success text-white p-3 border border-black col-xxl-4">Colonna 2</div>
+        <div class="bg-success text-white p-3 border border-black col-xxl-4">Colonna 3</div>
+      </div>
+    </div>
+    <!-- Esercizio 4 -->
+    <h2 class="text-center mt-3">Esercizio 4</h2>
+    <div class="container">
+      <div class="row">
+        <div class="bg-danger text-white p-3 border border-black col-lg-2">Colonna 1</div>
+        <div class="bg-danger text-white p-3 border border-black col-lg-8">Colonna 2</div>
+        <div class="bg-danger text-white p-3 border border-black col-lg-2">Colonna 3</div>
+      </div>
+    </div>
+    <!-- Esercizio 5 -->
+    <h2 class="text-center mt-3">Esercizio 5</h2>
+    <div class="container">
+      <div class="row">
+        <div class="bg-info text-white p-3 border border-black col-lg-8">
+          Colonna 1
+          <div class="row">
+            <div class="bg-secondary text-white p-3 border border-black col-lg-6">Colonna Annidata 1</div>
+            <div class="bg-secondary text-white p-3 border border-black col-lg-6">Colonna Annidata 2</div>
+          </div>
+        </div>
+        <div class="bg-info text-white p-3 border border-black col-lg-4">Colonna 2</div>
+      </div>
+    </div>
+    <!-- Esercizio 6 -->
+    <h2 class="text-center mt-3">Esercizio 6</h2>
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="bg-dark text-white p-3 mb-3 col-lg-6">Colonna 1</div>
+        <div class="bg-dark text-white p-3 mb-3 col-lg-4">Colonna 2</div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
